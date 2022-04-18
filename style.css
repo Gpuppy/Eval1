@@ -1,0 +1,163 @@
+body
+{
+  width: 100%;
+}
+
+.banner
+{
+  font-family:'Pacifico', cursive; 
+  font-size:large;
+  display: flex;
+ }
+
+
+.nav-bar ul
+{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  border-top: 1px black solid;  
+  list-style-type:none;
+  height:40px; 
+  font-size:20px ;
+  
+  
+}
+
+
+ul li a
+{
+  
+  text-decoration:none;
+}
+
+main
+{
+  display:flex;  
+  flex-wrap: wrap;
+  font-family:'Pacifico', cursive ;
+  
+}
+
+.new-arrivals img , .retro img,.jukebox img , .suitcase img , .withstand img, .bluetooth img
+{
+ 
+  transition:transform 2s;
+}
+
+.new-arrivals:hover img
+{
+  transform: scale(1.1);
+
+}
+
+.retro:hover img
+{
+  transform: scale(1.1);
+}
+.jukebox:hover img
+{
+  transform: scale(1.1);
+}
+
+
+.suitcase:hover img
+{
+  transform: scale(1.1);
+}
+
+.withstand:hover img
+{
+  transform:scale(1.1) ;
+}
+
+.bluetooth:hover img
+{
+  transform: scale(1.1);
+}
+
+
+img
+
+{
+  height:175px;
+  width:500px;
+}
+
+
+h2 a
+{
+  display:flex;
+  justify-content:center;
+  color:#595959;
+  text-decoration: none;
+  border-bottom: 2px black solid;
+}
+
+
+
+.site-footer
+{
+  display:flex;
+  flex-direction:row;
+  background-color: black;
+  height: 100px;
+  justify-content:center;
+  color:white;
+}
+
+.address
+{
+  display: flex;
+  flex-direction:column;
+  justify-content:center ;
+  width: 350px;
+
+}
+   
+.horaires
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  width: 350px;
+}
+
+.socials
+{
+  display:flex;
+  justify-content:center;
+  width:300px;
+ 
+}
+
+.socials img
+{
+  height:30px;
+  width:30px;
+}
+
+.facebook, .instagram
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media screen and (max-width:700px){
+  
+    .nav-bar ul 
+    {
+      display: block;
+      margin-bottom: 20px;
+      height:15vh;
+
+    }
+    .site-footer
+    {
+      width:100%;
+    }
+    
+}
+
